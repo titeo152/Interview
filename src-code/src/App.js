@@ -47,9 +47,6 @@ function App() {
       case 'yellow':
         handleActive({ ...buttonList, green: 'inactive' });
         break;
-      case 'reset':
-        handleActive({ ...buttonList });
-        break;
       default:
         handleActive({ ...buttonList });
     }
